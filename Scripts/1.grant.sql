@@ -13,3 +13,5 @@ select * from boardcategory b ;
 
 grant all on web_funding_prj.* 
 to 'user_web_funding_prj'@localhost identified by 'rootroot';
+
+CREATE database  web_funding_prj;
