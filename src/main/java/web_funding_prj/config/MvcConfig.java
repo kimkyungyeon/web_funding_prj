@@ -24,13 +24,13 @@ public class MvcConfig implements WebMvcConfigurer {
 	@Override
 	public void configureViewResolvers(ViewResolverRegistry registry) {
 		registry.jsp("/WEB-INF/view/", ".jsp");
-	}
-	
+	}	
+
 //	@Override
 //	public void addViewControllers(ViewControllerRegistry registry) {
 //		registry.addViewController("/main").setViewName("main");
 //	}
-
+	
 	@Bean
 	public MessageSource messageSource() {
 		ResourceBundleMessageSource ms = new ResourceBundleMessageSource();

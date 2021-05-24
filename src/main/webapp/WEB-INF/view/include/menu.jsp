@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Menu</title>
-<link rel="stylesheet" href="css/menu.css">
+<link rel="stylesheet" href="/web_funding_prj/css/menu.css">
 </head>
 <body>
 		<div class = project_all>

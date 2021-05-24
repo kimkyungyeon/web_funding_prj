@@ -23,7 +23,6 @@
 			<param-name>contextConfigLocation</param-name>
 			<param-value>
 			web_funding_prj.config.ContextRoot
-			web_funding_prj.config.MvcConfig
 			</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
