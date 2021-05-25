@@ -15,7 +15,11 @@
 				"url": "jdbc:mysql://localhost:3306/web_funding_prj",
 				"home": "C:\\Program Files\\MySQL\\MySQL Server 5.7",
 				"type": "dev",
-				"auth-model": "native"
+				"auth-model": "native",
+				"handlers": {}
+			},
+			"custom-properties": {
+				"database.meta.separate.connection": "false"
 			}
 		},
 		"mysql5-179930272af-19e41a4bb19c7e75": {
@@ -50,6 +54,9 @@
 				"type": "dev",
 				"auth-model": "native",
 				"handlers": {}
+			},
+			"custom-properties": {
+				"database.meta.separate.connection": "false"
 			}
 		}
 	},
